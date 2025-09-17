@@ -40,13 +40,9 @@ VibeLine is a modern, full‑stack chat application built with the MERN stack. I
 
 ## Getting started
 
-### 1) Clone the repo
-```bash
-git clone https://github.com/engmaryamameen/VibeLine-Mern-Chat-App
-cd mern-chat-app
 ```
 
-### 2) Install dependencies
+### 1) Install dependencies
 ```bash
 # install root deps (backend)
 npm install
@@ -56,7 +52,7 @@ cd frontend
 npm install
 ```
 
-### 3) Environment variables
+### 2) Environment variables
 
 Create a `.env` in `backend/` with at least:
 ```bash
@@ -66,7 +62,7 @@ NODE_ENV=development
 PORT=5000
 ```
 
-### 4) Run the app (two terminals)
+### 3) Run the app (two terminals)
 ```bash
 # terminal 1 – backend
 npm run start
@@ -90,6 +86,5 @@ The client runs on `http://localhost:3000` and proxies API requests to the serve
 - Group actions (add/remove/rename) and nicknames are available from the right info panel.
 - Profile menu lets you update name/photo or logout.
 
-## Author
 
-- [@Maryam‑Ameen](https://github.com/engmaryamameen)
+
